@@ -1,0 +1,52 @@
+@import url("fonts.css");
+body, html {
+    direction: rtl !important;
+    text-align: right !important;
+    font-family: iranMedi, sans-serif !important;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #4568dc, #b06ab3) !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1 {
+    color: #f6f6f6;
+    margin: 0.5em 0;
+    text-shadow:2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+form {
+    width: 100%;
+    text-align: center;
+    margin-top: 4em;
+}
+form input {
+    width: 100%;
+    text-align: center;
+    margin: 0.5em auto;
+    display: block;
+    border: none;
+    outline: none;
+    padding: 0.5em;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+}
+form div.form-group {
+    margin: 1em 0;
+}
+form label {
+    display: block;
+    text-align: right;
+}
+@media (min-width: 1200px) {
+    h1 {
+      font-size: 60px;
+    }
+  }
+  @media (max-width: 1199.98px) {
+    h1 {
+      font-size: 30px;
+    }
+  }

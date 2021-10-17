@@ -1,0 +1,4 @@
+Options -Indexes
+ErrorDocument 403 /github_repository_projects/QR_Code_Player/404.php
+ErrorDocument 404 /github_repository_projects/QR_Code_Player/404.php
+Header append X-Frame-Options: "SAMEORIGIN"
